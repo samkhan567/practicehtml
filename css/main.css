@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: white;
+    box-shadow: 0 0 12px 2px black;
+    position: sticky;
+
+}
+.navbar{
+     display: flex;
+     align-items: center;
+}
+.nav-brand img{
+    border-radius: 50%;
+
+}
+.nav-brand{
+    margin: 0 5px;
+    padding: 5px;
+}
+.nav-list{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+   
+}
+.nav-item{
+    margin: 0 20px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.banner-img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+}
