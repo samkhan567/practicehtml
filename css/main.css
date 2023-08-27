@@ -5,7 +5,6 @@ body{
 header{
     background-color: white;
     box-shadow: 0 0 12px 2px black;
-    position: sticky;
 
 }
 .navbar{
@@ -43,4 +42,10 @@ header{
     height: 30rem;
     object-fit: cover;
     object-position: center;
+}
+.nav-link:hover{
+    color:red;
+}
+.features-section {
+    text-align: center;
 }
